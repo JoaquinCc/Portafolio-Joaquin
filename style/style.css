@@ -183,8 +183,8 @@ header.sticky{
 .about-img img{
     width: 100%;
     /* cambiar a 530px : heigt - max-width para pruebas */
-    height: 380px;
-    max-width: 380px;
+    height: 440px;
+    max-width: 440px;
     border-radius: 50%;
     object-fit: cover;
     border: 7px solid var(--main-color);
