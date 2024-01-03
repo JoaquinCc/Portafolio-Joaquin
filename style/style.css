@@ -10,9 +10,9 @@
 
 :root{
     --text-color: #fff;
-    --bg-color: #1b1f24;
-    --second-bg-color: #22282f;
-    --main-color: #13bbff;
+    --bg-color: #171718;
+    --second-bg-color: #1f2124;
+    --main-color: #1ce783;
     --other-color: #c3cad5;
 
     --h1-font: 4.5rem;
@@ -183,8 +183,8 @@ header.sticky{
 .about-img img{
     width: 100%;
     /* cambiar a 530px : heigt - max-width para pruebas */
-    height: 440px;
-    max-width: 440px;
+    height: 438px;
+    max-width: 438px;
     border-radius: 50%;
     object-fit: cover;
     border: 7px solid var(--main-color);
@@ -225,7 +225,7 @@ header.sticky{
 }
 .box{
     padding: 80px 40px 66px;
-    background: #2d343f;
+    background: var(--second-bg-color);
     border-radius: 28px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
@@ -287,7 +287,7 @@ header.sticky{
     margin-bottom: 1.4rem;
 }
 .row{
-    background: #2d342d;
+    background: var(--bg-color);
     border-radius: 28px;
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
@@ -314,7 +314,7 @@ header.sticky{
     font-size: 27px;
     border-radius: 50%;
     color: var(--text-color);
-    background: #075fe4;
+    background: #1db954;
 }
 .row h4{
     font-size: 25px;
@@ -389,7 +389,7 @@ form .send-btn:hover{
     display: inline-block;
     align-items: center;
     justify-content: center;
-    background: #075fe4;
+    background: #20E167;
     width: auto;
     height: auto;
     border-radius: 50%;
